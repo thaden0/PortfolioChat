@@ -1,67 +1,49 @@
-# 🤖 Developer Information ChatBot
+# AI ChatBot API
 
-This application implements a Retrieval-Augmented Generation (RAG) system using Llama 3.2 via Ollama, with Qdrant as the vector database. The chatbot answers questions about a developer based on information stored in a text file.
+FastAPI-based REST API with local Ollama AI processing.
 
-## Features
-- Fully local RAG implementation
-- Powered by Llama 3.2 through Ollama
-- Vector search using Qdrant
-- Interactive playground interface
-- No external API dependencies
-- Answers questions about developer background, skills, and experience
+## Setup
 
-## How to get Started?
-
-1. **Install the required dependencies:**
+1. **Install dependencies:**
 ```bash
+python3 -m venv chatbot_env
+source chatbot_env/bin/activate
 pip install -r requirements.txt
 ```
 
-2. **Install and start Qdrant vector database locally:**
+2. **Start Qdrant:**
 ```bash
-docker pull qdrant/qdrant
-docker run -p 6333:6333 qdrant/qdrant
+docker run -d -p 6333:6333 qdrant/qdrant
 ```
 
-3. **Install Ollama and pull required models:**
+3. **Pull Ollama models:**
 ```bash
 ollama pull llama3.2
-ollama pull openhermes
+ollama pull nomic-embed-text
 ```
 
-4. **Create your developer information file:**
-Create a file named `developer_info.txt` in this directory with information about the developer. This can include:
-- Background and experience
-- Skills and technologies
-- Projects and achievements
-- Education and certifications
-- Contact information
-- Any other relevant details
-
-5. **Run the Developer ChatBot:**
+4. **Run API:**
 ```bash
-python developer_chatbot.py
+python api_chatbot.py
 ```
 
-6. **Open your web browser** and navigate to the URL provided in the console output to interact with the chatbot through the playground interface.
+## API Usage
 
-## Usage Examples
+**Chat endpoint:**
+```bash
+curl -X POST "http://127.0.0.1:8000/chat/messages" \
+     -H "Content-Type: application/json" \
+     -H "Authorization: Bearer EXPECTED_TOKEN" \
+     -d '{"session": "test", "message": "Hello"}'
+```
 
-Once running, you can ask questions like:
-- "What programming languages does this developer know?"
-- "Tell me about their work experience"
-- "What projects have they worked on?"
-- "What is their educational background?"
-- "What are their key skills and expertise?"
+**Health check:**
+```bash
+curl http://127.0.0.1:8000/
+```
 
 ## Configuration
 
-- **Model**: Change the model in `developer_chatbot.py` by modifying `Ollama(id="llama3.2")`
-- **File Path**: Update `file_path="developer_info.txt"` to point to your developer information file
-- **Collection Name**: Modify `collection_name` to change the vector database collection name
-
-## Troubleshooting
-
-- **Qdrant Connection Issues**: Ensure Qdrant is running on `http://localhost:6333/`
-- **Ollama Issues**: Make sure Ollama is installed and the required models are pulled
-- **File Not Found**: Ensure `developer_info.txt` exists in the same directory as the script
+- Token: Change `EXPECTED_TOKEN` in `api_chatbot.py`
+- Model: Modify `Ollama(id="llama3.2")` in `api_chatbot.py`
+- Knowledge: Update instructions in `api_chatbot.py`
