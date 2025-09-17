@@ -11,18 +11,16 @@ source chatbot_env/bin/activate
 pip install -r requirements.txt
 ```
 
-2. **Start Qdrant:**
+2. **Install Ollama and pull models:**
 ```bash
-docker run -d -p 6333:6333 qdrant/qdrant
-```
+# Install Ollama (if not already installed)
+curl -fsSL https://ollama.ai/install.sh | sh
 
-3. **Pull Ollama models:**
-```bash
+# Pull required model
 ollama pull llama3.2
-ollama pull nomic-embed-text
 ```
 
-4. **Run API:**
+3. **Run API:**
 ```bash
 python api_chatbot.py
 ```
