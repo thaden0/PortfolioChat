@@ -28,8 +28,8 @@ if ! command -v ollama &> /dev/null; then
 fi
 
 # Pull required Ollama model
-echo "🤖 Pulling Ollama model (llama3.2)..."
-ollama pull llama3.2
+echo "🤖 Pulling Qwen2.5 model..."
+ollama pull hf.co/mradermacher/0824-Qwen2.5-0.5B-Instructt-16bit-3E-GGUF:Q3_K_S
 
 echo ""
 echo "✅ Setup complete!"

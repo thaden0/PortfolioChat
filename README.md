@@ -11,13 +11,13 @@ source chatbot_env/bin/activate
 pip install -r requirements.txt
 ```
 
-2. **Install Ollama and pull models:**
+2. **Install Ollama and pull model:**
 ```bash
 # Install Ollama (if not already installed)
 curl -fsSL https://ollama.ai/install.sh | sh
 
-# Pull required model
-ollama pull llama3.2
+# Pull Qwen2.5 model
+ollama pull hf.co/mradermacher/0824-Qwen2.5-0.5B-Instructt-16bit-3E-GGUF:Q3_K_S
 ```
 
 3. **Run API:**
@@ -43,5 +43,5 @@ curl http://127.0.0.1:8000/
 ## Configuration
 
 - Token: Change `EXPECTED_TOKEN` in `api_chatbot.py`
-- Model: Modify `Ollama(id="llama3.2")` in `api_chatbot.py`
+- Model: Modify `Ollama(id="hf.co/mradermacher/0824-Qwen2.5-0.5B-Instructt-16bit-3E-GGUF:Q3_K_S")` in `api_chatbot.py`
 - Knowledge: Update instructions in `api_chatbot.py`
