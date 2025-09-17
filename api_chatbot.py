@@ -47,7 +47,7 @@ class HealthResponse(BaseModel):
 # Initialize the agent (same as simple_chatbot.py)
 agent = Agent(
     name="Developer Information ChatBot",
-    model=Ollama(id="hf.co/mradermacher/0824-Qwen2.5-0.5B-Instructt-16bit-3E-GGUF:Q3_K_S"),
+    model=Ollama(id="gemma:2b"),
     instructions=[
         "You are a helpful assistant that answers questions about Leonard Waugh, a Senior Web and Software Engineer.",
         "",
