@@ -1,0 +1,179 @@
+# Leonard Waugh - Senior Web and Software Engineer
+
+## Personal Information
+Name: Leonard Waugh
+Location: Tilbury, Ontario
+Experience: 33+ years in development
+Specialization: Senior Web and Software Engineer
+
+## Professional Summary
+Leonard Waugh is a seasoned Senior Web and Software Engineer with over 33 years of development experience. He has built a career on designing, developing, and optimizing complex web applications, with deep expertise in modern JavaScript frameworks such as Angular (2–19+), React, and legacy migrations from AngularJS. His leadership record includes guiding a team of four through a major AngularJS-to-Angular migration that greatly improved performance and maintainability.
+
+## Work Experience
+
+### Senior Full Stack Developer | Surex Insurance (2021–2025)
+- Led the transition of core applications to modern Angular
+- Applied software architecture best practices
+- Integrated RESTful APIs with HATEOAS for real-time quoting systems
+
+### Software Developer II | United Shore (2019–2021)
+- Contributed to large-scale projects as part of an agile SCRUM team
+- Mentored new hires in development practices and workflows
+- Responsible for training new hires, research and development of tech designs
+- Feature implementation specialist
+- Member of the mobile development team
+- Worked in both Kotlin and Swift
+- Note: United Shore was later renamed to United Wholesale Mortgage
+
+### Software Development Manager | Clearcom Media (2013–2015)
+- Oversaw a small team producing both web and mobile applications
+- Worked across platforms like AWS and Azure
+
+### Software Developer | Flexxia
+- Worked within a Drupal environment on webtools for the medical industry
+- Notable project: web-based PowerPoint presentation manager
+
+### Blackberry Technical Support
+- Leonard's first tech job
+- Developed templates and document services using Spring with Java
+
+## Education
+- Bachelor's Degree in Computer Science from the University of Windsor (2015–2019)
+- Took many AI-related courses
+- Notable project: Wrote a genetic algorithm to simulate a diverse population adapting to a competitive environment, where the population plays the prisoner's dilemma to gain points, with high scores able to reproduce and low scores being culled
+
+## Notable Projects
+
+### Portal-like Game (University Project)
+- Created a portal-like game for his final project in a video game class
+- Demo available at: https://www.youtube.com/watch?v=xDAFgVCNOy0
+- Made in Unity, took about 2 weeks to complete
+
+### Minecraft Mods
+- Creates Minecraft mods for himself and his wife to play with
+- One notable mod gave villagers abilities that can be used by the player, like farmers harvesting and storing nearby crops that are ready
+
+### Aranea Platform
+- Personal platform built with Laravel/Node/React
+
+### Cyberscore Card
+- Online service that scraped websites and performed SEO audits
+- Returned scores and recommendations
+- Built during time at Clear Com Media
+
+## Programming Languages & Experience
+
+### QuickBasic and Visual Basic
+- Leonard's first programming language
+- Started with QuickBasic 4.5 on a DOS-based system at a young age
+
+### C# and ASP.NET
+- Used throughout entire time with United Shore
+- Experience includes: Razor, Blazor, ASP.NET, and TFVC
+- Uses C# within Unity to produce both desktop and mobile games (mostly casual games)
+
+### PHP
+- Proficient with PHP from time at Clear Com Media
+- Experience with: Laravel, Symfony, CodeIgniter, WordPress, and Drupal
+
+### JavaScript and TypeScript
+- Very strong with both languages
+- Over 15 years experience with JavaScript
+- 8 years experience with TypeScript
+- Experience with frameworks: Angular, AngularJS, React, Vue, and jQuery
+
+### Node.js
+- Strong background having used it at ClearCom Media, United Shore, and Surex
+
+### C++
+- Strong with C++, over 25 years experience
+- Used for tools, services, and in Unreal Engine to produce 3D games
+- Has GPIO experience with Raspberry Pi and Arduino boards
+
+### Pascal and Delphi
+- Proficient with both
+- Moved from Basic to Pascal where he used Object-Oriented Programming techniques in TurboPascal
+
+### CSS, SASS, and LESS
+- Proficient with all three
+- Over 15 years experience with CSS
+
+### Mobile Development
+- Experience writing mobile applications at United Shore
+- Languages: Kotlin and Swift
+- Also experienced with Flutter using Dart
+
+### Python
+- Strong with Python
+- Wrote this chatbot in Python using LangChain and FastAPI
+- Experience with Django, which he maintained a corporate site for a client at Clear Com Media
+
+### Java
+- Proficient with Java
+- Made webapps with Spring and Spring Boot
+- Created Minecraft mods for personal use
+
+## Frameworks & Tools
+- Angular (2-19+)
+- React
+- Symfony
+- CodeIgniter
+- Unity
+- Unreal Engine
+- Django
+- LangChain
+- Docker
+- Kubernetes
+
+## Databases
+- PostgreSQL
+- MySQL
+- MongoDB
+- MSSQL
+- Oracle SQL
+- Aurora
+
+## Cloud & DevOps
+- AWS (set up DevOps department at Clear Com Media)
+- Azure (worked with at United Shore)
+- Google App Engine
+- Git
+- CI/CD (GitLab CI, Jenkins)
+- Jira
+- REST/HATEOAS
+- Current site hosted on AWS EC2 instance (t3.small)
+
+## Personal Interests & Hobbies
+
+### Gaming
+- Plays video games with his wife Audrey
+- Favorite games: Minecraft, PalWorld, and CoreWars
+- Creates Minecraft mods for personal use
+
+### Outdoor Activities
+- Kayaking and fishing on Lake St. Clair
+- Catches Bass, Walleye, and other fish
+- Enjoys spending time on Lake St. Clair
+
+### Technology Hobbies
+- Building and flying drones over the lake
+- Experimenting with AI Agents
+- Currently experimenting with using LLM to simulate environments for storytelling and gaming purposes
+- Uses LangFlow to help speed up agent design
+- Experiments with autonomous systems and LangChain integrations
+- Develops autonomous maritime drone concepts
+- Interested in tabletop game design
+- AI storytelling frameworks
+- Local LLM hosting
+- 3D printing
+
+## AI & Innovation Focus
+Leonard actively experiments with AI tooling, autonomous systems, and LangChain integrations. He blends long-term professional expertise with cutting-edge experimentation, making him equally comfortable leading enterprise-scale migrations, architecting new platforms, or building autonomous AI-driven projects from scratch.
+
+## Personal Life
+- Married to Audrey
+- Has 4 cats: Makani, Dee, Harley, and Lucy
+- Enjoys spending time with family and pets
+
+## Current Focus
+Leonard is currently experimenting with using LLM to simulate environments for storytelling and gaming purposes. Instead of directing the LLM to generate a story about characters, each character is controlled by an agent and their actions are then integrated into a wider narrative, keeping character actions consistent.
